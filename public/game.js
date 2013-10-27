@@ -287,7 +287,6 @@ Game.prototype.render = function() {
 	if (Score.levelHits > this.NEXT_LEVEL_HITS) {
 		Score.levelHits = 0;
 		this.nextLevel();
-		this.objects.add(new Level());
 	}
 };
 
