@@ -39,6 +39,7 @@ app.POINTS_COLOR = 'rgba(255,200,173,';
 app.POINTS_FONT = 'Toxia';
 app.SCORE_FONT = '25px NightOfTheDamned';
 app.SCORE_COLOR = '#ecf0f1';
+app.fps = 1000 / 60;
 
 app.newGame = function() {
 	app.game = null;
@@ -119,7 +120,7 @@ window.requestAnimFrame = (function() {
 	       window.oRequestAnimationFrame      || 
 	       window.msRequestAnimationFrame     || 
 	       function(callback){
-	         window.setTimeout(callback, game.fps);
+	         window.setTimeout(callback, app.fps);
 		   };
 })();
 
