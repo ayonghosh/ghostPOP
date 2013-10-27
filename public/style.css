@@ -1,0 +1,51 @@
+
+@font-face {
+	font-family: 'MoonlightShadow';
+	src: url('fonts/MoonlightShadow.ttf');
+}
+
+@font-face {
+	font-family: 'Toxia';
+	src: url('fonts/Toxia_FRE.ttf');
+}
+
+/*
+@font-face {
+	font-family: 'YourMurderer';
+	src: url('fonts/youmurdererbb_reg.otf');
+}
+
+@font-face {
+	font-family: 'ZombieHolocaust';
+	src: url('fonts/Zombie_Holocaust.ttf');
+}
+
+@font-face {
+	font-family: 'KillTheNoise';
+	src: url('fonts/Kill The Noise.otf');
+}
+*/
+
+@font-face {
+	font-family: 'NightOfTheDamned';
+	src: url('fonts/CFNightOfTheDamned-Regular.ttf');
+}
+
+
+body {
+	margin: 0;
+	overflow: hidden;
+	font-family: 'Toxia', 'Arial';
+	font-weight: bold;
+	font-size: 24pt;
+	text-align: center;
+}
+
+canvas {
+	cursor: pointer;
+	font-family: 'NightOfTheDamned';
+}
+
+img {
+	display: none;
+}
